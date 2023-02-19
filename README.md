@@ -31,8 +31,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Solution](https://www.frontendmentor.io/solutions/profile-card-component-THgEu1V2zB)
+- Live Site URL: [Live Server](https://duzoka.github.io/profile-card-component-main/)
 
 ## My process
 
@@ -69,7 +69,7 @@ At this point i've taked all "newbie" project to beginner in FrontEnd. My goal i
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Duzoka)
+- Frontend Mentor - [@Duzoka](https://www.frontendmentor.io/profile/Duzoka)
 
 
 ## Acknowledgments
