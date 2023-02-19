@@ -70,6 +70,8 @@ At this point i've taked all "newbie" project to beginner in FrontEnd. My goal i
 ## Author
 
 - Frontend Mentor - [@Duzoka](https://www.frontendmentor.io/profile/Duzoka)
+- CodePen - [@Duzoka](https://codepen.io/Duzoka)
+- CodeWars - [@Duzoka](https://www.codewars.com/users/Duzoka)
 
 
 ## Acknowledgments
