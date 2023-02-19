@@ -1,3 +1,138 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
+    min-height: 100vh;
+    background: hsl(185, 75%, 39%);
+    font-size: 18px;
+    overflow: hidden;
+}
+
+#bg-top {
+    position: absolute;
+    top: -600px;
+    left: -300px;
+    z-index: -1;
+
+}
+
+#bg-bottom {
+    position: absolute;
+    bottom: -600px;
+    right: -300px;
+    z-index: -1;
+}
+
+.wrapper {
+    color: hsl(229, 23%, 23%);
+    padding: 1rem;
+    margin: 1rem;
+   
+}
+
+.card {
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 15px;
+    box-shadow: 2px black;
+}
+
+
+
+.banner {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px ;
+    border-top-left-radius: 15px;
+}
+
+.flex {
+    width: 100%;
+    height: 130px;
+}
+
+.user-info {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -60px;
+}
+
+.user-info img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 0 0 1rem;
+}
+
+.text-section-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info h1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.user-info span {
+    color: hsl(0, 0%, 59%);
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0 0 0 0.2rem;
+    
+}
+
+.user-info p {
+    color: hsl(0, 0%, 59%);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0.5rem 0 1.5rem;
+
+}
+
+hr {
+    width: 100%;
+    border: 0.1px solid hsl(0, 0%, 59%);
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer div {
+    margin: 2rem 1rem;
+}
+
+.footer .follower, .like, .photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.footer h1 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 0.2rem;
+}
+
+.footer p {
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%)
 }

@@ -1,0 +1,35 @@
+@media (max-width: 375px) {
+    #bg-top {
+        width: 575px;
+        position: absolute;
+        top: -200px;
+        left: -350px;
+        z-index: -1;
+    
+    }
+    
+    #bg-bottom {
+        width: 575px;
+        position: absolute;
+        bottom: -200px;
+        right: -350px;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 1440px) {
+    #bg-top {
+        position: absolute;
+        top: -580px;
+        left: -200px;
+        z-index: -1;
+    
+    }   
+    
+    #bg-bottom {
+        position: absolute;
+        bottom: -580px;
+        right: -200px;
+        z-index: -1;
+    }
+}
